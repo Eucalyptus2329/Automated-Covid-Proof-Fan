@@ -1,3 +1,3 @@
-Automated Covid-Proof Fan
+# Automated Covid-Proof Fan
 
 This project was created on the idea that many standard fans produce unnecessary and excess energy. Too often, a standard fan will be left on, even though the desired room temperature has been reached, generating excess energy and increasing one's electricity bill. The goal of this project was to provide a device that would reduce the amount of energy generated. Our solution was to incorporate a temperature sensor to be constantly reading the surrounding temperature and a small DC motor to mimic the rotation similarly seen from standing tower fans. Due to the COVID protocols that arose this year with the deadly pandemic, contactless options became of importance to limit the spread of the virus. With that, we wanted to incorporate our own contactless options by using a gesture sensor.
