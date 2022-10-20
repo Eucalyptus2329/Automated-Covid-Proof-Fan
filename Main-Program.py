@@ -32,7 +32,7 @@ microphone = audiobusio.PDMIn(board.MICROPHONE_CLOCK, board.MICROPHONE_DATA,
 clap_threshold = 1000
 rotate = True
 
-def normalized_rms(values):
+def normalized_rms(values):                                       # Use normalised RMS average to take multiple sound samples really quickly and average them to get a more accurate reading.
     minbuf = int(sum(values) / len(values))
     return int(math.sqrt(sum(float(sample - minbuf) * (sample - minbuf) for sample in values) / len(values)))
 
